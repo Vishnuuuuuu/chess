@@ -6,6 +6,7 @@ import { useNavigate } from "react-router-dom";
 function LoginPage() {
   const navigate = useNavigate();
 
+  
   const [email, setEmail] = useState("user@gmail.com"); // Default email
   const [password, setPassword] = useState("password"); // Default password
   const [loading, setLoading] = useState(false); // Loading state
